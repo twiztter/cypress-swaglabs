@@ -35,4 +35,8 @@ describe('Buying an item workflow', () => {
     it('Backhome button', () => {
         itemBuy.BackhomeButton();
     });
+
+    it('Logout', () => {
+        cy.logout();
+    });
 });
