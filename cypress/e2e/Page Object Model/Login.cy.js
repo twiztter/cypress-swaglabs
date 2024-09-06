@@ -9,6 +9,5 @@ describe('App login', () => {
 
     it('Login by front end', function () {
         login.ValidateUrl()
-        console.log('hola mundo');
     });
 });
